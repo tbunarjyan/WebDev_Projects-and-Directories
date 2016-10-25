@@ -1,0 +1,13 @@
+<table border="1">
+    <?php
+        foreach ($students as $student) {
+    ?>
+            <tr>
+                <td><?= $student->getId() ?></td>
+                <td><?= $student->getFirstName() ?></td>
+                <td><?= $student->getLastName() ?></td>
+            </tr>
+    <?php
+        }
+    ?>
+</table>

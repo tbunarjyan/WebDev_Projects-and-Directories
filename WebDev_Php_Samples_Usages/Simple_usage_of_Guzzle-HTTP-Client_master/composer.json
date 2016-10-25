@@ -1,0 +1,6 @@
+{
+  "description": "Simple usage of Guzzle HTTP Client",
+  "require": {
+      "guzzlehttp/guzzle": "^6.2"
+  }
+}

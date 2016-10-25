@@ -1,0 +1,5 @@
+Hi,
+
+The following task is about chnaging the logos and validating the credit card, while it recieves an input numbers from user.
+
+Thanks.

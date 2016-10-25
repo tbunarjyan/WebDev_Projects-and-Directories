@@ -1,0 +1,5 @@
+Hi,
+
+The task is about creating a User list with approprite pagination, while reading the necessary data from .txt file.
+
+Thanks.

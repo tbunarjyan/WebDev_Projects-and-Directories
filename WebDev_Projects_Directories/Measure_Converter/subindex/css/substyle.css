@@ -1,0 +1,12 @@
+.background1{
+background-image: url('back.png');
+background-size: 1840px 1000px;
+padding-bottom: 100px;
+padding-right: 100px;
+}
+
+.background3{
+background-image: url('last.png');
+background-size: 1840px 1000px;
+padding-bottom: 0px;
+}

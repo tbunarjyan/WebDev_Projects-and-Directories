@@ -1,0 +1,23 @@
+.background1{
+background-image: url('images/back.png');
+background-size: 1840px 1000px;
+padding-bottom: 100px;
+padding-right: 100px;
+}
+
+.background3{
+background-image: url('images/last.png');
+background-size: 1840px 1000px;
+padding-bottom: 0px;
+}
+
+img{
+    opacity: 1;
+    filter: alpha(opacity=40);
+    cursor: auto;
+}
+
+img:hover{
+    opacity: 0.4;
+    filter: alpha(opacity=100);
+}

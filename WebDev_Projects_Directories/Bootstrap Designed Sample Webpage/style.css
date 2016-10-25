@@ -1,0 +1,17 @@
+.background1{
+background-image: url('images/car.jpg');
+background-size: 1840px 800px;
+padding-bottom: 180px;
+padding-right: 0px;
+}
+
+.b1{
+background-image: url('images/capture1.png');
+}
+
+.b2{
+background-image: url('images/map1.png');
+background-size: 1840px 850px;
+padding-bottom: 120px;
+padding-right: 0px;
+}

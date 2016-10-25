@@ -1,0 +1,5 @@
+Hi,
+
+The task is about creating Calendar form (.php), that should display the current month in a calendar table.
+
+Thanks.

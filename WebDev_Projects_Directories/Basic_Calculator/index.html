@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task #2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container" style="padding-right: 0px;  padding-left: 0px; padding-button: 0px; ">
+      <div class="row">
+        <div class="col-sm-12 sidebar main" style="padding-top: 0px; padding-left: 10px; position: fixed; margin-right: 0px; font-family: Arial;  height: 100%; overflow-y: auto">
+          <p class="dashboard" style="padding-top: 10px; padding-bottom: 3px; font-size: 35px; border-bottom: 1px solid #eee">Calculate the value</p>
+          <div class="row" style="padding-top: 0px; padding-right: 340px">
+            <div class="col-sm-1" style="padding-right: 10px" >
+              <input id="a" type="text" style="margin-top: 30px; height: 40px; width: 90px; font-size: 25px"></input>
+            </div>
+            <div class="col-sm-1" style="padding-left: 0px; padding-right: 0px">
+              <div class="dropdown open text-center" >
+                <select id="Dropdown" style="margin-top: 30px; height: 40px; width: 100px; margin-right: 0px; font-size: 30px">
+                  <option value="sum">+</option>
+                  <option value="sub">-</option>
+                  <option value="div">/</option>
+                  <option value="prod">*</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-sm-1" style="padding-right: 10px" >
+              <input id="b" type="text" style="margin-top: 30px; height: 40px; width: 90px; font-size: 25px"></input>
+            </div>
+            <div class="col-sm-1" style="padding-right: 10px" >
+              <input id="c" type="text" style="margin-top: 30px; height: 40px; width: 90px; font-size: 25px"></input>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-left: 0px; margin-top: 250px; margin-bottom: 150px">
+        <div class="col-sm-1">
+          <button type="button" class="btn btn-info" onclick="compare()"; style="height: 37px; width: 110px; margin-top:30px; font-size: 18px">solve</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Bootstrap forms & tables</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+          </head>
+          <body>
+            <nav class="navbar navbar-inverse" style="margin: 0px; border-radius: 0px">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-12" style="font-family: Arial">
+                    <div class="navbar-header" style="border: 0px">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Project name</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav navbar-right">
+                        <form class="navbar-form navbar-left" role="search">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search...">
+                          </div>
+                        </form>
+                        <li><a href="#">Dashboard</a>
+                        </li>
+                        <li><a href="#">settings</a>
+                        </li>
+                        <li><a href="#">Profile</a>
+                        </li>
+                        <li><a href="#">Help</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+            <div class="row" style="margin: 0px">
+            <div class="col-sm-3 col-md-2 " style="font-family: Arial; background-color: #F5F5F5;  padding-left: 0px; position: fixed; height: 100%; display: block; overflow-y: auto">
+              <div class="list-group" style="margin: 0px; padding-top: 18px; margin-right: -20px; margin-left: -2px;  line-height: 16px">
+                <ul class="nav nav-pills nav-stacked">
+                  <li><a href="index.html">&nbsp;Survey List</a>
+                  </li>
+                  <li><a href="list group.html">&nbsp;List Groups</a>
+                  </li>
+                  <li><a href="progress.html">&nbsp;Progress Bars</a>
+                  </li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked">
+                  <li>
+                  <p>&nbsp;</p>
+                  </li>
+                  <li><a href="labels.html">&nbsp;Labels</a>
+                  </li>
+                  <li><a href="alerts.html">&nbsp;Alerts</a>
+                  </li>
+                  <li class="active" style="line-height: 22px"><a href="dropdowns.html">&nbsp;Dropdowns </a>
+                  </li>
+                  <li><a href="pagnition.html">&nbsp;Pagnition</a>
+                  </li>
+                  <li><a href="jumbotron.html">&nbsp;Jumbatron</a>
+                  </li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked">
+                  <li>
+                  <p>&nbsp;</p>
+                  </li>
+                  <li><a href="input groups.html">&nbsp;Input Groups</a>
+                  </li>
+                  <li><a href="responsive embed.html">&nbsp;Responsive Embed</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-10 sidebar col-sm-offset-2 sidebar col-md-10 sidebar col-md-offset-2 sidebar main" style="padding-top: 0px; padding-left: 30px; position: fixed; margin-right: 0px; font-family: Arial;  height: 100%; overflow-y: auto">
+            <div class="row" style="padding-left: 17px; margin-right: 10px">
+            <div class="col-xs-12 col-sm-12">
+              <p class="dashboard" style="padding-top: 14px; padding-bottom: 3px; font-size: 35px; border-bottom: 1px solid #eee">Dropdowns</p>
+              <form>
+                <fieldset class="form-group">
+                <label for="formGroupExampleInput"></label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="The following is a page to show all dropdown examples!">
+                </fieldset>
+              </form>
+              <p class="dashboard" style="padding-top: 30px; padding-bottom: 3px; font-size: 20px; border-bottom: 1px solid #eee">You wanna check?</p>
+              <div class="dropdown open">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li> <a class="dropdown-item" href="#">Action</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </div>
+              </div>
+              <p class="dashboard" style="padding-top: 40px; padding-bottom: 3px; font-size: 20px; border-bottom: 1px solid #eee">Menu Header</p>
+            <div class="dropdown open">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+              </button>
+              <div class="dropdown-menu">
+                <h6 class="dropdown-header">Dropdown header</h6>
+                <li> <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Another action</a>
+                </li>
+              </div>
+            </div>
+              <p class="dashboard" style="padding-top: 40px; padding-bottom: 3px; font-size: 20px; border-bottom: 1px solid #eee">Menu Dividers</p>
+            <div class="dropdown open">
+              <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+              </button>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Dropdown header 1</li>
+                <li><a href="#">1</a>
+                </li>
+                <li><a href="#">2</a>
+                </li>
+                <li><a href="#">3</a>
+                </li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Dropdown header 2</li>
+                <li><a href="#">About Us</a>
+                </li>
+              </ul>
+          </div>
+            <p class="dashboard" style="padding-top: 40px; padding-bottom: 3px; font-size: 20px; border-bottom: 1px solid #eee">Separaped Menu Items</p>
+            <div class="dropdown open" style="margin-bottom: 30px">
+              <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML</a>
+                </li>
+                <li><a href="#">CSS</a>
+                </li>
+                <li><a href="#">JavaScript</a>
+                </li>
+                <li class="divider"></li>
+                <li><a href="#">About Us</a>
+                </li>
+              </ul>
+            </div>
+            <p class="dashboard" style="padding-top: 40px; padding-bottom: 100px; font-size: 20px; border-bottom: 1px solid #eee"></p>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+ </body>
+</html>

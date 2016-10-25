@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Area</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/substyle.css" media="screen"/>
+    <script src="js/area.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid" style="padding-right: 0px;  padding-left: 0px; padding-button: 0px; ">
+      <div class="background1">
+        <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-default navbar-fixed-top" style=" background-color: rgb(44, 62, 80); border-color: rgba(248, 248, 248, 0); height: 80px;">
+              <div class="container">
+                <div class="navbar-header page scroll">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <h1 class="text-higher" style="font-size: 23px; color: rgb(255,255,255);margin-top: 30px">
+                  <b>CONVERTION HOMEPAGE</b></h>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+                  <ul class="nav navbar-nav navbar-right" style="font-size: 15px">
+                    <li><a href="#" style="color: rgb(255,255,255);margin-top: 15px"><b>CONVERTER PRO! Coming SOON</b></a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 col-md-2 " style="font-family: Arial; background-color: #F5F5F5;  padding-left: 0px; position: fixed; height: 100%; display: block; overflow-y: auto">
+        <div class="list-group" style="margin: 0px; padding-top: 18px; margin-right: -20px; margin-left: -2px;  line-height: 16px">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="mass.html";>&nbsp;Mass & Weight</a></li>
+            <li><a href="distance.html">&nbsp;Distance & Lenght</a></li>
+          </ul>
+          <ul class="nav nav-pills nav-stacked">
+            <li>
+              <p>&nbsp;</p>
+            </li>
+            <li><a href="capacity.html">&nbsp;Capacity & Volume</a></li>
+            <li class="active" style="line-height: 22px"><a href="area.html">&nbsp;Area</a></li>
+          </ul>
+          <ul class="nav nav-pills nav-stacked">
+            <li>
+              <p>&nbsp;</p>
+            </li>
+            <li><a href="speed.html">&nbsp;Speed</a></li>
+            <li><a href="temperature.html">&nbsp;Temperature</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-10 sidebar col-sm-offset-2 sidebar col-md-10 sidebar col-md-offset-2 sidebar main" style="padding-top: 0px; padding-left: 10px; position: fixed; margin-right: 0px; font-family: Arial;  height: 100%; overflow-y: auto">
+        <div class="row" style="padding-left: 17px; margin-right: 10px" >
+          <div class="col-xs-12 col-sm-12">
+            <p class="dashboard" style="padding-top: 14px; padding-bottom: 3px; font-size: 35px; border-bottom: 1px solid #eee">Area Converter</p>
+            <div class="row" style="padding-top: 30px">
+              <div class="col-sm-5">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-danger" id="bar2" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">kilometer square</div>
+                </div>
+                <button type="button" style="width: 80px" class="btn btn-primary" onclick="convert('K')">km^2</button>
+                <input id="k" type="text"></input>
+              </div>
+              <div class="col-sm-5">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-warning" id="bar1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">meter square</div>
+                </div>
+                <div class="buttom">
+                  <button type="button" class="btn btn-primary" style="width: 80px" onclick="convert('M')">m^2</button>
+                  <input id="m" type="text"></input>
+                </div>
+              </div>
+            </div>
+            <div class="row" style="padding-top: 30px">
+              <div class="col-sm-5">
+                <button type="button" style="width: 80px" class="btn btn-primary" onclick="convert('H')">hectare</button>
+                <input id="h" type="text"></input>
+              </div>
+            </div>
+            <div class="row" style="padding-top: 30px">
+              <div class="col-sm-5">
+                <button type="button" style="width: 80px" class="btn btn-primary" onclick="convert('A')">are</button>
+                <input id="a" type="text"></input>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-left: 17px; margin-top: 150px; margin-bottom: 100px">
+          <div class="col-offset-sm-8">
+            <button type="button" class="btn btn-info" onclick="return btntest_onclickback()"; style="height: 37px; width: 110px; margin-top:30px; font-size: 18px">back</button>
+            <button type="button" class="btn btn-success" onclick="return btntest_onclicknext()"; style="height: 37px; width: 110px; margin-top:30px; font-size: 18px">next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>

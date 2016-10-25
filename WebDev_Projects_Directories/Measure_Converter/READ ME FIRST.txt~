@@ -1,0 +1,6 @@
+Hi,
+
+While constructing JavaScript functions I used Math.round(value) tool to round up the values during convertion.
+Don't be surprised if you see i.e. 0 instead of 0.4.
+
+Thanks.

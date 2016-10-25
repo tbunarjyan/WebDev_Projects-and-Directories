@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task #3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container" style="padding-right: 0px;  padding-left: 0px; padding-button: 0px; ">
+      <div class="row">
+        <div class="col-sm-12">
+          <p class="dashboard" style="padding-top: 10px; padding-bottom: 3px; font-size: 35px; border-bottom: 1px solid #eee">Contact form/ Checking the validity</p>
+          <form>
+            <div class="form-group row" style="padding-top: 30px">
+              <label for="name" class="col-sm-2 form-control-label">Name</label>
+              <div class="col-sm-3">
+                <input type="text" class="form-control" id="name" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-group row" style="padding-top: 10px">
+              <label for="lastname" class="col-sm-2 form-control-label">Last Name</label>
+              <div class="col-sm-3">
+                <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+              </div>
+            </div>
+            <div class="form-group row" style="padding-top: 10px">
+              <label for="inputEmail3" class="col-sm-2 form-control-label">Email</label>
+              <div class="col-sm-3">
+                <input type="email" class="form-control" id="email" placeholder="jane.doe@example.com">
+              </div>
+            </div>
+            <div class="form-group row" style="padding-top: 10px">
+              <label for="date of birth" class="col-sm-2 form-control-label">Date of Birth</label>
+              <div class="col-sm-1">
+                <input type="day" class="form-control" id="day" placeholder="day">
+              </div>
+              <div class="col-sm-2 text-center">
+                <div class="dropdown open" >
+                  <select id="Dropdown" style="margin-top: 0px; height: 35px; width: 150px; margin-right: 0px">
+                    <option value="m">month</option>
+                    <option value="1">januray</option>
+                    <option value="2">february</option>
+                    <option value="3">march</option>
+                    <option value="4">april</option>
+                    <option value="5">may</option>
+                    <option value="6">june</option>
+                    <option value="7">july</option>
+                    <option value="8">august</option>
+                    <option value="9">september</option>
+                    <option value="10">october</option>
+                    <option value="11">november</option>
+                    <option value="12">december</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-1">
+                <input type="year" class="form-control" id="birthdate" placeholder="year">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-2"></label>
+              <div class="col-sm-10">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" id="change" onclick="check()"class="btn btn-primary">Validate</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
